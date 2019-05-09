@@ -1,0 +1,7 @@
+Running non optamized version
+mpicc Recursive.c -lm && mpiexec -f ./hostfile -n 8 ./a.out 16
+
+Running optamized version
+
+mpicc optamized_Recursive.c -lm && mpiexec -f ./hostfile -n 8 ./a.out 1
+
